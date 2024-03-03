@@ -20,13 +20,16 @@ export default function Header() {
             <div className="flex justify-between h-16">
               <div className="flex px-2 lg:px-0">
                 <div className="flex items-center flex-shrink-0">
-                  <Link className="text-2xl dark:text-white text-black font-bold" to="/">
-                    Card
+                  <Link
+                    className="text-2xl dark:text-white text-black font-bold"
+                    to="/"
+                  >
+                    Ace of Cards
                   </Link>
                 </div>
                 {authenticated && (
                   <div className="hidden lg:ml-6 lg:flex lg:space-x-8">
-                    {/* Current: "border-indigo-500 text-gray-900", Default: "border-transparent dark:text-white text-gray-500 hover:border-gray-300 hover:text-gray-700" */}
+                    {/* Current: "border-indigo-500 text-gray-900", Default: "border-transparent dark:text-white text-gray-500 hover:bg-cyan-700 hover:bg-cyan-900" */}
                     <Link
                       to="/"
                       className="inline-flex items-center px-1 pt-1 text-sm font-medium dark:text-white text-gray-500 dark:text-white  "
@@ -35,19 +38,19 @@ export default function Header() {
                     </Link>
                     <Link
                       to="/create-card"
-                      className="inline-flex items-center px-1 pt-1 text-sm font-medium dark:text-white text-gray-500 border-b-2 border-transparent hover:border-gray-300 hover:text-gray-700"
+                      className="inline-flex items-center px-1 pt-1 text-sm font-medium dark:text-white text-gray-500 border-b-2 border-transparent hover:bg-cyan-700 hover:text-gray-700"
                     >
                       Create Card
                     </Link>
                     <Link
                       to="/favourite-cards"
-                      className="inline-flex items-center px-1 pt-1 text-sm font-medium dark:text-white text-gray-500 border-b-2 border-transparent hover:border-gray-300 hover:text-gray-700"
+                      className="inline-flex items-center px-1 pt-1 text-sm font-medium dark:text-white text-gray-500 border-b-2 border-transparent hover:bg-cyan-700 hover:text-gray-700"
                     >
                       Fav Cards
                     </Link>
                     <Link
                       to="/about"
-                      className="inline-flex items-center px-1 pt-1 text-sm font-medium dark:text-white text-gray-500 border-b-2 border-transparent hover:border-gray-300 hover:text-gray-700"
+                      className="inline-flex items-center px-1 pt-1 text-sm font-medium dark:text-white text-gray-500 border-b-2 border-transparent hover:bg-cyan-700 hover:text-gray-700"
                     >
                       About
                     </Link>
@@ -114,7 +117,7 @@ export default function Header() {
                           <span className="sr-only">Open user menu</span>
                           <img
                             className="w-8 h-8 rounded-full"
-                            src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                            src="https://www.svgrepo.com/show/408476/user-person-profile-block-account-circle.svg"
                             alt=""
                           />
                         </Menu.Button>
@@ -227,7 +230,7 @@ export default function Header() {
                   <div className="flex-shrink-0">
                     <img
                       className="w-10 h-10 rounded-full"
-                      src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                      src="https://www.svgrepo.com/show/408476/user-person-profile-block-account-circle.svg"
                       alt=""
                     />
                   </div>

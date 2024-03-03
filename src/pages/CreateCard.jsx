@@ -62,7 +62,7 @@ const CreateCard = () => {
             className="w-full px-3 py-2 mt-2 rounded-md"
             value={address}
             onChange={(e) => setAddress(e.target.value)}
-            placeholder="Alia Town"
+            placeholder="Insert a Address here"
             name="name"
             id="name"
           />
@@ -76,7 +76,7 @@ const CreateCard = () => {
             className="w-full px-3 py-2 mt-2 rounded-md"
             value={phone}
             onChange={(e) => setPhone(e.target.value)}
-            placeholder="+92...."
+            placeholder="+1...."
             name="name"
             id="name"
           />
@@ -91,7 +91,7 @@ const CreateCard = () => {
             className="w-full px-3 py-2 mt-2 rounded-md"
             value={cardNumber}
             onChange={(e) => setCardNumber(e.target.value)}
-            placeholder="1234"
+            placeholder="Insert a Phone Number here"
             name="name"
             id="name"
           />
@@ -106,7 +106,7 @@ const CreateCard = () => {
             onChange={(e) => setDescription(e.target.value)}
             type="number"
             className="px-3 mt-2 min-h-[250px] w-full py-2 rounded-md"
-            placeholder="This is cool"
+            placeholder="Insert a Description Here"
             name="name"
             id="name"
           ></textarea>

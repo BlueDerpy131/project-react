@@ -22,10 +22,10 @@ export default function Cards() {
       <div className="px-6 mx-auto max-w-7xl lg:px-8">
         <div className="max-w-2xl ">
           <h2 className="text-5xl font-semibold tracking-tight text-gray-900 dark:text-white sm:text-5xl">
-            All Cards Page
+            Ace of Cards Products
           </h2>
           <p className="mt-4 text-xl text-black dark:text-white">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident.
+          Here you can find the company alliances of Ace of Cards! Where everyone can make their own business cards, and have it represented on our site! It's very easy and simple, how about you have a try? Below are some examples:
           </p>
         </div>
         <div className="grid max-w-2xl grid-cols-1 mx-auto mt-16 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">

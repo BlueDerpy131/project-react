@@ -24,7 +24,7 @@ export default function Favourites() {
             Favourite Cards Page
           </h2>
           <p className="mt-4 text-xl text-black dark:text-white">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident.
+            Here you can view your Favourite Cards!
           </p>
         </div>
         <div className="grid max-w-2xl grid-cols-1 mx-auto mt-16 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
